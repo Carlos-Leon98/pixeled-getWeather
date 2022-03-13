@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../images/pixelBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'VT323', monospace;
+}
+.mainContainer{
+    background-color: #fff;
+    border: 2px solid #000;
+    width: 65%;
+    height: auto;
+    margin: 50px auto;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    margin-bottom: 25px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2.5rem;
+}
+#userZipCode{
+    border: 2px solid #000;
+    width: 50%;
+    height: 35px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: 'VT323', cursive;
+    font-size: 1.25rem;
+}
+button{
+    background-color: #ff9a9f;
+    border: 2px solid #000;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 25px;
+    font-family: 'VT323', cursive;
+    font-size: 20px;
+}
+button:hover{background-color: #ee525a;}
+button:active{background-color: #fbbab4;}
+.weatherContainer, .windSpeedContainer{text-align: center;}
+h2, .weatherContainer h2{font-size: 2rem;}
+.weatherContainer h3, .windSpeedContainer h3{
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+.weatherContainer img, .windSpeedContainer img{width: 25%;}
